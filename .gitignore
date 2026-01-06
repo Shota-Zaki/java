@@ -1,0 +1,46 @@
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+*~
+*.swp
+*.swo
+
+# ===== Java build outputs =====
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven / Gradle (使ってるなら)
+target/
+build/
+.gradle/
+
+# ===== Eclipse =====
+.classpath
+.project
+.settings/
+.metadata/
+.recommenders/
+*.launch
+
+# Eclipseの出力フォルダ（あなたの status に出てたやつ）
+bin/
+
+# ===== IntelliJ (念のため) =====
+.idea/
+*.iml
+out/
+
+# ===== VS Code (念のため) =====
+.vscode/
+
+# ===== Logs =====
+*.log
+
+# ===== Secrets (事故防止) =====
+.env
+*.key
+*.pem
